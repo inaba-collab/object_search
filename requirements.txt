@@ -1,0 +1,3 @@
+azure.cognitiveservices.vision.computervision==0.9.1
+msrest==1.1.1
+PIL==12.0.0
