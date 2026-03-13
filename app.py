@@ -17,7 +17,7 @@ KEY = secret['KEY']
 ENDPOINT = secret['ENDPOINT']
 
 print("KEY =", KEY)
-print("ENDPOINT =", ENDPOINT)   # ← 追加
+print("ENDPOINT =", ENDPOINT)
 
 computervision_client = ComputerVisionClient(
     ENDPOINT,
@@ -57,7 +57,6 @@ if uploaded_file is not None:
     img.save(img_path)
     objects = detect_objects(img_path)
 
-    #描画
     draw = ImageDraw.Draw(img)
     for object in objects:
         x = object.rectangle.x
