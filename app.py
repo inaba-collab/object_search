@@ -9,12 +9,10 @@ from PIL import Image
 import sys
 import time
 import json
+import streamlit as st
 
-with open('secret.json') as f:
-    secret = json.load(f)
-
-KEY = secret['KEY']
-ENDPOINT = secret['ENDPOINT']
+KEY = st.secrets['KEY']
+ENDPOINT = st.secrets['ENDPOINT']
 
 print("KEY =", KEY)
 print("ENDPOINT =", ENDPOINT)
@@ -43,7 +41,6 @@ def detect_objects(filepath):
     objects = detect_objects_results.objects
     return objects
 
-import streamlit as st
 from PIL import ImageDraw
 from PIL import ImageFont
 
