@@ -8,7 +8,7 @@
 Pythonの画像分析機能をstreamlit上で実行するために作成しました。
 
 ## デモ画面
-https://github.com/user-attachments/assets/b5b54848-7cc3-4380-a22a-68880c2fed00
+https://github.com/inaba-collab/object_search/issues/5#issue-4120699158
 
 ## 使用技術
 - Python
