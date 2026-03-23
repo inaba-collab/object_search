@@ -1,6 +1,6 @@
 # 物体検出アプリ
 
-[アプリを使ってみる](https://gafavisuaize-bgxwobjhgwkrtxessdxy5p.streamlit.app/)](https://objectsearch-smku5wvyjzpmyyxyirw9hj.streamlit.app/)
+[アプリを使ってみる](https://objectsearch-smku5wvyjzpmyyxyirw9hj.streamlit.app/)
 ※初回起動に数秒かかる場合があります。
 
 ## アプリの概要
@@ -8,7 +8,7 @@
 Pythonの画像分析機能をstreamlit上で実行するために作成しました。
 
 ## デモ画面
-https://github.com/inaba-collab/GAFA_visuaize/issues/1#issue-4116272540
+[https://github.com/user-attachments/assets/b5b54848-7cc3-4380-a22a-68880c2fed00]
 
 ## 使用技術
 - Python
